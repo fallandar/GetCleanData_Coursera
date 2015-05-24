@@ -54,4 +54,4 @@ Note: Short descriptions of all actions are also provided within the script as c
 
 8. The outout produced is combined with activities and subjects and column names are assigned (using 'namescol').
 
-9. The output table is written to file 'samsung_out.txt'.
+9. The output table is written to file 'samsung_out.txt' in R working dir.
