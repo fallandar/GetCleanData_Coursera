@@ -31,7 +31,7 @@ Informally, 3 criteria are satisfied.
 
 And the criteria from lecture 1.3 of this course are also satisfied:
  	1. Each variable is on one column (here variables represent average values of other variables obtained from original dataset)
- 	2. Each different observation of this variable is in different row (here rows represent a set of values for the given subject and given activity, and "observation" really represent the average of all original observations) 
+ 	2. Each different observation of this variable is in different row (here rows represent a set of values for the given subject and given activity, and "observation" really represents the average of all original observations) 
  	3. There is only one table due to requirements, but also the types of variables are the same.
 
 DETAILED DESCRIPTION
@@ -52,6 +52,6 @@ Note: Short descriptions of all actions are also provided within the script as c
 
 7. The average for each variable of each subject-activity pairs are calculated by using sapply and aggregate functions.
 
-8. The outout produced is combined with activities and subjects and column names are assigned (using 'namescol').
+8. The output produced is combined with activities and subjects and column names are assigned (using 'namescol').
 
 9. The output table is written to file 'samsung_out.txt' in R working dir.
